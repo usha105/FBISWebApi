@@ -1,0 +1,4 @@
+21/Mar/2020 14:17:19 -- 268e145e-207a-4bbf-818a-131f7f31230a---Exception:The process cannot access the file 'C:\fbiswebapi\FBISWebApi\LogFile\Tracking\FBISLog.txt' because it is being used by another process.
+______________________________________
+21/Mar/2020 14:17:19 -- c083d670-9407-49d9-8faf-f310fe53fd5a---Exception:The process cannot access the file 'C:\fbiswebapi\FBISWebApi\LogFile\Tracking\FBISLog.txt' because it is being used by another process.
+___________________________________

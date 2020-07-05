@@ -1,0 +1,23 @@
+30/Mar/2020 09:52:33 -- 88480772-d4e5-432d-99e2-4e80d0b5dd54---Exception:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+______________________________________
+30/Mar/2020 09:56:01 -- 80d8dba7-35fd-4756-9034-70751f85713c---Exception:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+___________________________________
+30/Mar/2020 10:02:52 -- a71e881a-9afc-4f82-827f-3668829b6a36---Exception:Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=2494; handshake=14743; 
+___________________________________
+30/Mar/2020 10:04:04 -- f18fa76c-6c8c-440a-b192-c72dde043c65---Exception:Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=4952; handshake=13898; 
+___________________________________
+30/Mar/2020 10:06:59 -- d2a00ead-019b-4879-89a4-6ac0b5b9e53e---Exception:The process cannot access the file 'C:\fbiswebapi\FBISWebApi\LogFile\Tracking\FBISLog.txt' because it is being used by another process.
+___________________________________
+30/Mar/2020 10:06:59 -- fea97bdf-1da9-4a6f-8774-55fc58c1d4fb---Exception:The process cannot access the file 'C:\fbiswebapi\FBISWebApi\LogFile\Tracking\FBISLog.txt' because it is being used by another process.
+___________________________________
+30/Mar/2020 10:06:59 -- 70922d87-2153-4814-8bbe-58eede8fcb86---Exception:The process cannot access the file 'C:\fbiswebapi\FBISWebApi\LogFile\Tracking\FBISLog.txt' because it is being used by another process.
+___________________________________
+30/Mar/2020 10:06:59 -- bf2d389e-18fd-4388-af89-1bdcca9ff2b9---The process cannot access the file 'C:\fbiswebapi\FBISWebApi\LogFile\Error\FBIS_LOG30032020.txt' because it is being used by another process.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at System.IO.FileInfo.AppendText()
+   at FBISWebApi.Logics.Log.LogFile(String tasknames, String appRunningId) in C:\fbiswebapi\FBISWebApi\Logics\Log.cs:line 23
+___________________________________

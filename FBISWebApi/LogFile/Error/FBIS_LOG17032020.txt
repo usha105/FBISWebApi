@@ -1,0 +1,370 @@
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---Application No: 
+______________________________________
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---ApplicantName: Shivashankar
+___________________________________
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---Designation: Manager
+___________________________________
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---App_add_line1: BENGALURU
+___________________________________
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---App_add_line2: BENGALURU
+___________________________________
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---App_post: Anekal
+___________________________________
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---App_taluk: Anekal
+___________________________________
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---App_district: BENGALURU
+___________________________________
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---App_Pincode: 560040
+___________________________________
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---Phone_no: 7899285626
+___________________________________
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---Factory_add_line1: BENGALURU
+___________________________________
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---Factory_add_line2: BENGALURU
+___________________________________
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---Factory_post: Anekal
+___________________________________
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---Factory_taluk: Anekal
+___________________________________
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---Factory_district: BENGALURU
+___________________________________
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---Factory_pincode: 560040
+___________________________________
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---Factory_phone_no: 7899285626
+___________________________________
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---Factory_name: Sugar
+___________________________________
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---Situation_f_district: BENGALURU
+___________________________________
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---Situation_f_town_village: town
+___________________________________
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---nearest_police_station: yes
+___________________________________
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---nearest_rlystation: yes
+___________________________________
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---buldng_approval: Proposed Building
+___________________________________
+17/Mar/2020 11:56:48 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---Userid: Demo
+___________________________________
+17/Mar/2020 11:56:49 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---division_cd: Senior Assistant Director  of Factories, Bangalore Division-10
+___________________________________
+17/Mar/2020 11:56:49 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---circle_cd: BANGALORE REGION
+___________________________________
+17/Mar/2020 11:56:49 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---App_mob_No1: 8656565655
+___________________________________
+17/Mar/2020 11:56:49 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---Email_id: ushabiradar33@gmail.com
+___________________________________
+17/Mar/2020 11:56:49 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---App_mob_No2: 8565652322
+___________________________________
+17/Mar/2020 11:56:49 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---CompanyType: Proprietory
+___________________________________
+17/Mar/2020 11:56:49 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---Total_wrkr_emplyd: 21
+___________________________________
+17/Mar/2020 11:56:49 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---Amount: 100
+___________________________________
+17/Mar/2020 11:56:49 -- b126068f-37de-4e8f-bd88-7e0c3262efc8---ErrorSystem.IO.IOException: The device is not ready.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at System.IO.Directory.CreateDirectory(String path)
+   at FBISWebApi.Logics.FolderCreate.CreateDirectory(String id, List`1 f) in C:\fbiswebapi\FBISWebApi\Logics\FolderCreate.cs:line 21
+   at FBISWebApi.Logics.PlanApproval.InsertForm1Details(Form1Approval formApp) in C:\fbiswebapi\FBISWebApi\Logics\PlanApproval.cs:line 29
+   at FBISWebApi.Controllers.HomeController.InsertPlanApproval(Form1Approval request) in C:\fbiswebapi\FBISWebApi\Controllers\HomeController.cs:line 90
+___________________________________
+17/Mar/2020 11:57:10 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---Application No: 
+___________________________________
+17/Mar/2020 11:57:10 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---ApplicantName: Shivashankar
+___________________________________
+17/Mar/2020 11:57:10 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---Designation: Manager
+___________________________________
+17/Mar/2020 11:57:10 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---App_add_line1: BENGALURU
+___________________________________
+17/Mar/2020 11:57:10 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---App_add_line2: BENGALURU
+___________________________________
+17/Mar/2020 11:57:10 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---App_post: Anekal
+___________________________________
+17/Mar/2020 11:57:10 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---App_taluk: Anekal
+___________________________________
+17/Mar/2020 11:57:10 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---App_district: BENGALURU
+___________________________________
+17/Mar/2020 11:57:10 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---App_Pincode: 560040
+___________________________________
+17/Mar/2020 11:57:10 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---Phone_no: 7899285626
+___________________________________
+17/Mar/2020 11:57:10 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---Factory_add_line1: BENGALURU
+___________________________________
+17/Mar/2020 11:57:10 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---Factory_add_line2: BENGALURU
+___________________________________
+17/Mar/2020 11:57:10 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---Factory_post: Anekal
+___________________________________
+17/Mar/2020 11:57:10 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---Factory_taluk: Anekal
+___________________________________
+17/Mar/2020 11:57:11 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---Factory_district: BENGALURU
+___________________________________
+17/Mar/2020 11:57:11 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---Factory_pincode: 560040
+___________________________________
+17/Mar/2020 11:57:11 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---Factory_phone_no: 7899285626
+___________________________________
+17/Mar/2020 11:57:11 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---Factory_name: Sugar
+___________________________________
+17/Mar/2020 11:57:11 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---Situation_f_district: BENGALURU
+___________________________________
+17/Mar/2020 11:57:11 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---Situation_f_town_village: town
+___________________________________
+17/Mar/2020 11:57:11 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---nearest_police_station: yes
+___________________________________
+17/Mar/2020 11:57:11 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---nearest_rlystation: yes
+___________________________________
+17/Mar/2020 11:57:11 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---buldng_approval: Proposed Building
+___________________________________
+17/Mar/2020 11:57:11 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---Userid: Demo
+___________________________________
+17/Mar/2020 11:57:11 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---division_cd: Senior Assistant Director  of Factories, Bangalore Division-10
+___________________________________
+17/Mar/2020 11:57:11 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---circle_cd: BANGALORE REGION
+___________________________________
+17/Mar/2020 11:57:11 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---App_mob_No1: 8656565655
+___________________________________
+17/Mar/2020 11:57:11 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---Email_id: ushabiradar33@gmail.com
+___________________________________
+17/Mar/2020 11:57:11 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---App_mob_No2: 8565652322
+___________________________________
+17/Mar/2020 11:57:11 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---CompanyType: Proprietory
+___________________________________
+17/Mar/2020 11:57:11 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---Total_wrkr_emplyd: 21
+___________________________________
+17/Mar/2020 11:57:11 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---Amount: 100
+___________________________________
+17/Mar/2020 11:57:11 -- 5f91044a-8fbc-495a-ade7-8f4eb8c0e71a---ErrorSystem.IO.IOException: The device is not ready.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at System.IO.Directory.CreateDirectory(String path)
+   at FBISWebApi.Logics.FolderCreate.CreateDirectory(String id, List`1 f) in C:\fbiswebapi\FBISWebApi\Logics\FolderCreate.cs:line 21
+   at FBISWebApi.Logics.PlanApproval.InsertForm1Details(Form1Approval formApp) in C:\fbiswebapi\FBISWebApi\Logics\PlanApproval.cs:line 29
+   at FBISWebApi.Controllers.HomeController.InsertPlanApproval(Form1Approval request) in C:\fbiswebapi\FBISWebApi\Controllers\HomeController.cs:line 90
+___________________________________
+17/Mar/2020 12:00:58 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---Application No: 
+___________________________________
+17/Mar/2020 12:00:58 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---ApplicantName: Shivashankar
+___________________________________
+17/Mar/2020 12:00:58 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---Designation: Manager
+___________________________________
+17/Mar/2020 12:00:58 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---App_add_line1: BENGALURU
+___________________________________
+17/Mar/2020 12:00:58 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---App_add_line2: BENGALURU
+___________________________________
+17/Mar/2020 12:00:58 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---App_post: Anekal
+___________________________________
+17/Mar/2020 12:00:58 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---App_taluk: Anekal
+___________________________________
+17/Mar/2020 12:00:58 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---App_district: BENGALURU
+___________________________________
+17/Mar/2020 12:00:58 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---App_Pincode: 560040
+___________________________________
+17/Mar/2020 12:00:58 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---Phone_no: 7899285626
+___________________________________
+17/Mar/2020 12:00:58 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---Factory_add_line1: BENGALURU
+___________________________________
+17/Mar/2020 12:00:58 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---Factory_add_line2: BENGALURU
+___________________________________
+17/Mar/2020 12:00:59 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---Factory_post: Anekal
+___________________________________
+17/Mar/2020 12:00:59 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---Factory_taluk: Anekal
+___________________________________
+17/Mar/2020 12:00:59 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---Factory_district: BENGALURU
+___________________________________
+17/Mar/2020 12:00:59 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---Factory_pincode: 560040
+___________________________________
+17/Mar/2020 12:00:59 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---Factory_phone_no: 7899285626
+___________________________________
+17/Mar/2020 12:00:59 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---Factory_name: Sugar
+___________________________________
+17/Mar/2020 12:00:59 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---Situation_f_district: BENGALURU
+___________________________________
+17/Mar/2020 12:00:59 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---Situation_f_town_village: town
+___________________________________
+17/Mar/2020 12:00:59 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---nearest_police_station: yes
+___________________________________
+17/Mar/2020 12:00:59 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---nearest_rlystation: yes
+___________________________________
+17/Mar/2020 12:00:59 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---buldng_approval: Proposed Building
+___________________________________
+17/Mar/2020 12:00:59 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---Userid: Demo
+___________________________________
+17/Mar/2020 12:00:59 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---division_cd: Senior Assistant Director  of Factories, Bangalore Division-10
+___________________________________
+17/Mar/2020 12:00:59 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---circle_cd: BANGALORE REGION
+___________________________________
+17/Mar/2020 12:00:59 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---App_mob_No1: 8656565655
+___________________________________
+17/Mar/2020 12:00:59 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---Email_id: ushabiradar33@gmail.com
+___________________________________
+17/Mar/2020 12:00:59 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---App_mob_No2: 8565652322
+___________________________________
+17/Mar/2020 12:00:59 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---CompanyType: Proprietory
+___________________________________
+17/Mar/2020 12:00:59 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---Total_wrkr_emplyd: 21
+___________________________________
+17/Mar/2020 12:00:59 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---Amount: 100
+___________________________________
+17/Mar/2020 12:00:59 -- 1667258a-4b58-4177-94d1-ab09f3d8abe0---ErrorSystem.IO.IOException: The device is not ready.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at System.IO.Directory.CreateDirectory(String path)
+   at FBISWebApi.Logics.FolderCreate.CreateDirectory(String id, List`1 f) in C:\fbiswebapi\FBISWebApi\Logics\FolderCreate.cs:line 21
+   at FBISWebApi.Logics.PlanApproval.InsertForm1Details(Form1Approval formApp) in C:\fbiswebapi\FBISWebApi\Logics\PlanApproval.cs:line 29
+   at FBISWebApi.Controllers.HomeController.InsertPlanApproval(Form1Approval request) in C:\fbiswebapi\FBISWebApi\Controllers\HomeController.cs:line 90
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---Application No: 
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---ApplicantName: Shivashankar
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---Designation: Manager
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---App_add_line1: BENGALURU
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---App_add_line2: BENGALURU
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---App_post: Anekal
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---App_taluk: Anekal
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---App_district: BENGALURU
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---App_Pincode: 560040
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---Phone_no: 7899285626
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---Factory_add_line1: BENGALURU
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---Factory_add_line2: BENGALURU
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---Factory_post: Anekal
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---Factory_taluk: Anekal
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---Factory_district: BENGALURU
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---Factory_pincode: 560040
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---Factory_phone_no: 7899285626
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---Factory_name: Sugar
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---Situation_f_district: BENGALURU
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---Situation_f_town_village: town
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---nearest_police_station: yes
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---nearest_rlystation: yes
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---buldng_approval: Proposed Building
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---Userid: Demo
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---division_cd: Senior Assistant Director  of Factories, Bangalore Division-10
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---circle_cd: BANGALORE REGION
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---App_mob_No1: 8656565655
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---Email_id: ushabiradar33@gmail.com
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---App_mob_No2: 8565652322
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---CompanyType: Proprietory
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---Total_wrkr_emplyd: 21
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---Amount: 100
+___________________________________
+17/Mar/2020 12:14:13 -- 0b98c563-3ece-4d07-a3cc-16734205ae7f---ErrorSystem.IO.IOException: The device is not ready.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at System.IO.Directory.CreateDirectory(String path)
+   at FBISWebApi.Logics.FolderCreate.CreateDirectory(String id, List`1 f) in C:\fbiswebapi\FBISWebApi\Logics\FolderCreate.cs:line 21
+   at FBISWebApi.Logics.PlanApproval.InsertForm1Details(Form1Approval formApp) in C:\fbiswebapi\FBISWebApi\Logics\PlanApproval.cs:line 29
+   at FBISWebApi.Controllers.HomeController.InsertPlanApproval(Form1Approval request) in C:\fbiswebapi\FBISWebApi\Controllers\HomeController.cs:line 90
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---Application No: 
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---ApplicantName: Shivashankar
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---Designation: Manager
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---App_add_line1: BENGALURU
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---App_add_line2: BENGALURU
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---App_post: Anekal
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---App_taluk: Anekal
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---App_district: BENGALURU
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---App_Pincode: 560040
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---Phone_no: 7899285626
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---Factory_add_line1: BENGALURU
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---Factory_add_line2: BENGALURU
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---Factory_post: Anekal
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---Factory_taluk: Anekal
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---Factory_district: BENGALURU
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---Factory_pincode: 560040
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---Factory_phone_no: 7899285626
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---Factory_name: Sugar
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---Situation_f_district: BENGALURU
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---Situation_f_town_village: town
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---nearest_police_station: yes
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---nearest_rlystation: yes
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---buldng_approval: Proposed Building
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---Userid: Demo
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---division_cd: Senior Assistant Director  of Factories, Bangalore Division-10
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---circle_cd: BANGALORE REGION
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---App_mob_No1: 8656565655
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---Email_id: ushabiradar33@gmail.com
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---App_mob_No2: 8565652322
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---CompanyType: Proprietory
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---Total_wrkr_emplyd: 21
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---Amount: 100
+___________________________________
+17/Mar/2020 12:19:36 -- f651674d-0c54-4b6e-9b5b-e8af2a3488d1---ErrorSystem.IO.IOException: The device is not ready.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at System.IO.Directory.CreateDirectory(String path)
+   at FBISWebApi.Logics.FolderCreate.CreateDirectory(String id, List`1 f) in C:\fbiswebapi\FBISWebApi\Logics\FolderCreate.cs:line 21
+   at FBISWebApi.Logics.PlanApproval.InsertForm1Details(Form1Approval formApp) in C:\fbiswebapi\FBISWebApi\Logics\PlanApproval.cs:line 29
+   at FBISWebApi.Controllers.HomeController.InsertPlanApproval(Form1Approval request) in C:\fbiswebapi\FBISWebApi\Controllers\HomeController.cs:line 90
+___________________________________

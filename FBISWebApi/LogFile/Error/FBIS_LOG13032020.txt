@@ -1,0 +1,74 @@
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---Application No: 
+______________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---ApplicantName: Shivashankar
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---Designation: Manager
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---App_add_line1: BENGALURU
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---App_add_line2: BENGALURU
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---App_post: Anekal
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---App_taluk: Anekal
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---App_district: BENGALURU
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---App_Pincode: 560040
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---Phone_no: 7899285626
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---Factory_add_line1: BENGALURU
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---Factory_add_line2: BENGALURU
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---Factory_post: Anekal
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---Factory_taluk: Anekal
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---Factory_district: BENGALURU
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---Factory_pincode: 560040
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---Factory_phone_no: 7899285626
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---Factory_name: Sugar
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---Situation_f_district: BENGALURU
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---Situation_f_town_village: town
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---nearest_police_station: yes
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---nearest_rlystation: yes
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---buldng_approval: Proposed Building
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---Userid: Demo
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---division_cd: Senior Assistant Director  of Factories, Bangalore Division-10
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---circle_cd: BANGALORE REGION
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---App_mob_No1: 8656565655
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---Email_id: ushabiradar33@gmail.com
+___________________________________
+13/Mar/2020 14:54:52 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---App_mob_No2: 8565652322
+___________________________________
+13/Mar/2020 14:54:53 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---CompanyType: Proprietory
+___________________________________
+13/Mar/2020 14:54:53 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---Total_wrkr_emplyd: 21
+___________________________________
+13/Mar/2020 14:54:53 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---Amount: 100
+___________________________________
+13/Mar/2020 14:54:53 -- e1dd9d77-ab64-4850-b69c-f11a33f838be---ErrorSystem.IO.IOException: The device is not ready.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at System.IO.Directory.CreateDirectory(String path)
+   at FBISWebApi.Logics.FolderCreate.CreateDirectory(String id, List`1 f) in C:\fbiswebapi\FBISWebApi\Logics\FolderCreate.cs:line 21
+   at FBISWebApi.Logics.PlanApproval.InsertForm1Details(Form1Approval formApp) in C:\fbiswebapi\FBISWebApi\Logics\PlanApproval.cs:line 29
+   at FBISWebApi.Controllers.HomeController.InsertPlanApproval(Form1Approval request) in C:\fbiswebapi\FBISWebApi\Controllers\HomeController.cs:line 90
+___________________________________

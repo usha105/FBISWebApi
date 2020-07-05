@@ -1,0 +1,27 @@
+27/Mar/2020 10:40:43 -- 5adb48c2-bbcf-4686-9a21-1ad04a8aea3f---Exception:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+______________________________________
+27/Mar/2020 10:43:22 -- 3eaeb7cc-cc2f-46f0-a080-17dd28eb435f---Exception:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+___________________________________
+27/Mar/2020 10:43:55 -- c65dd171-d64a-4bba-9d0e-7a4eb61deb15---Exception:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+___________________________________
+27/Mar/2020 10:44:05 -- 3bd89d8e-c75d-4d9f-9617-28b39cbbb9a5---Exception:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+___________________________________
+27/Mar/2020 10:44:21 -- c03629cd-8f0a-4b57-9dda-76554192b817---Exception:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+___________________________________
+27/Mar/2020 10:44:26 -- db0beae7-aa54-42d2-9907-a1de1e80a481---Exception:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+___________________________________
+27/Mar/2020 11:54:13 -- 8fa8f29d-a6fb-4eb3-b7db-9e63d4a4357a---Exception:The process cannot access the file 'C:\fbiswebapi\FBISWebApi\LogFile\Tracking\FBISLog.txt' because it is being used by another process.
+___________________________________
+27/Mar/2020 11:54:13 -- cb574da5-cb53-4cc9-9217-99494e7f496c---Exception:The process cannot access the file 'C:\fbiswebapi\FBISWebApi\LogFile\Tracking\FBISLog.txt' because it is being used by another process.
+___________________________________
+27/Mar/2020 11:54:13 -- 87f56a25-f6fb-41ec-a91d-444b751d5dab---Exception:The process cannot access the file 'C:\fbiswebapi\FBISWebApi\LogFile\Tracking\FBISLog.txt' because it is being used by another process.
+___________________________________
+27/Mar/2020 11:54:14 -- cd6df3df-69dd-48a3-8534-fbbd322fc5ed---The process cannot access the file 'C:\fbiswebapi\FBISWebApi\LogFile\Error\FBIS_LOG27032020.txt' because it is being used by another process.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at System.IO.FileInfo.AppendText()
+   at FBISWebApi.Logics.Log.LogFile(String tasknames, String appRunningId) in C:\fbiswebapi\FBISWebApi\Logics\Log.cs:line 23
+___________________________________

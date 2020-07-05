@@ -1,0 +1,588 @@
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---Application No: 
+______________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---ApplicantName: Shivashankar
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---Designation: Manager
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---App_add_line1: BENGALURU
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---App_add_line2: BENGALURU
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---App_post: Anekal
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---App_taluk: Anekal
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---App_district: BENGALURU
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---App_Pincode: 560040
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---Phone_no: 7899285626
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---Factory_add_line1: BENGALURU
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---Factory_add_line2: BENGALURU
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---Factory_post: Anekal
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---Factory_taluk: Anekal
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---Factory_district: BENGALURU
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---Factory_pincode: 560040
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---Factory_phone_no: 7899285626
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---Factory_name: Sugar
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---Situation_f_district: BENGALURU
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---Situation_f_town_village: town
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---nearest_police_station: yes
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---nearest_rlystation: yes
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---buldng_approval: Proposed Building
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---Userid: Demo
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---division_cd: Deputy Director of Factories, Bangalore Division-3
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---circle_cd: BANGALORE REGION
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---App_mob_No1: 8656565655
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---Email_id: ushabiradar33@gmail.com
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---App_mob_No2: 8565652322
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---CompanyType: Proprietory
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---Total_wrkr_emplyd: 21
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---Amount: 100
+___________________________________
+02/Apr/2020 10:16:42 -- 55c36aa2-408c-4317-859b-74f603ed0f9b---ErrorSystem.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network location cannot be reached. For information about network troubleshooting, see Windows Help
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at FBISWebApi.DBAccess.Operation.GetRecord(SqlCommand cmd) in C:\fbiswebapi\FBISWebApi\DBAccess\Operation.cs:line 31
+   at FBISWebApi.DBAccess.Operation.DML(String proc, Object[] col) in C:\fbiswebapi\FBISWebApi\DBAccess\Operation.cs:line 92
+   at FBISWebApi.Logics.PlanApproval.InsertForm1Details(Form1Approval formApp) in C:\fbiswebapi\FBISWebApi\Logics\PlanApproval.cs:line 22
+   at FBISWebApi.Controllers.HomeController.InsertPlanApproval(Form1Approval request) in C:\fbiswebapi\FBISWebApi\Controllers\HomeController.cs:line 90
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:1231,State:0,Class:20
+___________________________________
+02/Apr/2020 10:17:00 -- 4344dad4-282d-453e-a543-e64afd69da76---Application No: 
+___________________________________
+02/Apr/2020 10:17:00 -- 4344dad4-282d-453e-a543-e64afd69da76---ApplicantName: Shivashankar
+___________________________________
+02/Apr/2020 10:17:00 -- 4344dad4-282d-453e-a543-e64afd69da76---Designation: Manager
+___________________________________
+02/Apr/2020 10:17:00 -- 4344dad4-282d-453e-a543-e64afd69da76---App_add_line1: BENGALURU
+___________________________________
+02/Apr/2020 10:17:00 -- 4344dad4-282d-453e-a543-e64afd69da76---App_add_line2: BENGALURU
+___________________________________
+02/Apr/2020 10:17:00 -- 4344dad4-282d-453e-a543-e64afd69da76---App_post: Anekal
+___________________________________
+02/Apr/2020 10:17:00 -- 4344dad4-282d-453e-a543-e64afd69da76---App_taluk: Anekal
+___________________________________
+02/Apr/2020 10:17:00 -- 4344dad4-282d-453e-a543-e64afd69da76---App_district: BENGALURU
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---App_Pincode: 560040
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---Phone_no: 7899285626
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---Factory_add_line1: BENGALURU
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---Factory_add_line2: BENGALURU
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---Factory_post: Anekal
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---Factory_taluk: Anekal
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---Factory_district: BENGALURU
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---Factory_pincode: 560040
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---Factory_phone_no: 7899285626
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---Factory_name: Sugar
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---Situation_f_district: BENGALURU
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---Situation_f_town_village: town
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---nearest_police_station: yes
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---nearest_rlystation: yes
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---buldng_approval: Proposed Building
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---Userid: Demo
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---division_cd: Deputy Director of Factories, Bangalore Division-3
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---circle_cd: BANGALORE REGION
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---App_mob_No1: 8656565655
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---Email_id: ushabiradar33@gmail.com
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---App_mob_No2: 8565652322
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---CompanyType: Proprietory
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---Total_wrkr_emplyd: 21
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---Amount: 100
+___________________________________
+02/Apr/2020 10:17:01 -- 4344dad4-282d-453e-a543-e64afd69da76---ErrorSystem.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network location cannot be reached. For information about network troubleshooting, see Windows Help
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at FBISWebApi.DBAccess.Operation.GetRecord(SqlCommand cmd) in C:\fbiswebapi\FBISWebApi\DBAccess\Operation.cs:line 31
+   at FBISWebApi.DBAccess.Operation.DML(String proc, Object[] col) in C:\fbiswebapi\FBISWebApi\DBAccess\Operation.cs:line 92
+   at FBISWebApi.Logics.PlanApproval.InsertForm1Details(Form1Approval formApp) in C:\fbiswebapi\FBISWebApi\Logics\PlanApproval.cs:line 22
+   at FBISWebApi.Controllers.HomeController.InsertPlanApproval(Form1Approval request) in C:\fbiswebapi\FBISWebApi\Controllers\HomeController.cs:line 90
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:1231,State:0,Class:20
+___________________________________
+02/Apr/2020 10:17:33 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---Application No: 
+___________________________________
+02/Apr/2020 10:17:33 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---ApplicantName: Shivashankar
+___________________________________
+02/Apr/2020 10:17:33 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---Designation: Manager
+___________________________________
+02/Apr/2020 10:17:33 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---App_add_line1: BENGALURU
+___________________________________
+02/Apr/2020 10:17:33 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---App_add_line2: BENGALURU
+___________________________________
+02/Apr/2020 10:17:33 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---App_post: Anekal
+___________________________________
+02/Apr/2020 10:17:33 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---App_taluk: Anekal
+___________________________________
+02/Apr/2020 10:17:33 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---App_district: BENGALURU
+___________________________________
+02/Apr/2020 10:17:33 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---App_Pincode: 560040
+___________________________________
+02/Apr/2020 10:17:33 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---Phone_no: 7899285626
+___________________________________
+02/Apr/2020 10:17:33 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---Factory_add_line1: BENGALURU
+___________________________________
+02/Apr/2020 10:17:33 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---Factory_add_line2: BENGALURU
+___________________________________
+02/Apr/2020 10:17:33 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---Factory_post: Anekal
+___________________________________
+02/Apr/2020 10:17:33 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---Factory_taluk: Anekal
+___________________________________
+02/Apr/2020 10:17:33 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---Factory_district: BENGALURU
+___________________________________
+02/Apr/2020 10:17:33 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---Factory_pincode: 560040
+___________________________________
+02/Apr/2020 10:17:33 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---Factory_phone_no: 7899285626
+___________________________________
+02/Apr/2020 10:17:33 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---Factory_name: Sugar
+___________________________________
+02/Apr/2020 10:17:33 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---Situation_f_district: BENGALURU
+___________________________________
+02/Apr/2020 10:17:33 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---Situation_f_town_village: town
+___________________________________
+02/Apr/2020 10:17:33 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---nearest_police_station: yes
+___________________________________
+02/Apr/2020 10:17:34 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---nearest_rlystation: yes
+___________________________________
+02/Apr/2020 10:17:34 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---buldng_approval: Proposed Building
+___________________________________
+02/Apr/2020 10:17:34 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---Userid: Demo
+___________________________________
+02/Apr/2020 10:17:34 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---division_cd: Deputy Director of Factories, Bangalore Division-3
+___________________________________
+02/Apr/2020 10:17:34 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---circle_cd: BANGALORE REGION
+___________________________________
+02/Apr/2020 10:17:34 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---App_mob_No1: 8656565655
+___________________________________
+02/Apr/2020 10:17:34 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---Email_id: ushabiradar33@gmail.com
+___________________________________
+02/Apr/2020 10:17:34 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---App_mob_No2: 8565652322
+___________________________________
+02/Apr/2020 10:17:34 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---CompanyType: Proprietory
+___________________________________
+02/Apr/2020 10:17:34 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---Total_wrkr_emplyd: 21
+___________________________________
+02/Apr/2020 10:17:34 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---Amount: 100
+___________________________________
+02/Apr/2020 10:17:34 -- 23f17497-3bdc-437c-8df4-c0dc0c7b4cc9---ErrorSystem.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network location cannot be reached. For information about network troubleshooting, see Windows Help
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at FBISWebApi.DBAccess.Operation.GetRecord(SqlCommand cmd) in C:\fbiswebapi\FBISWebApi\DBAccess\Operation.cs:line 31
+   at FBISWebApi.DBAccess.Operation.DML(String proc, Object[] col) in C:\fbiswebapi\FBISWebApi\DBAccess\Operation.cs:line 92
+   at FBISWebApi.Logics.PlanApproval.InsertForm1Details(Form1Approval formApp) in C:\fbiswebapi\FBISWebApi\Logics\PlanApproval.cs:line 22
+   at FBISWebApi.Controllers.HomeController.InsertPlanApproval(Form1Approval request) in C:\fbiswebapi\FBISWebApi\Controllers\HomeController.cs:line 90
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:1231,State:0,Class:20
+___________________________________
+02/Apr/2020 10:18:37 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---Application No: 
+___________________________________
+02/Apr/2020 10:18:37 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---ApplicantName: Shivashankar
+___________________________________
+02/Apr/2020 10:18:37 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---Designation: Manager
+___________________________________
+02/Apr/2020 10:18:37 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---App_add_line1: BENGALURU
+___________________________________
+02/Apr/2020 10:18:37 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---App_add_line2: BENGALURU
+___________________________________
+02/Apr/2020 10:18:37 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---App_post: Anekal
+___________________________________
+02/Apr/2020 10:18:37 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---App_taluk: Anekal
+___________________________________
+02/Apr/2020 10:18:37 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---App_district: BENGALURU
+___________________________________
+02/Apr/2020 10:18:37 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---App_Pincode: 560040
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---Phone_no: 7899285626
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---Factory_add_line1: BENGALURU
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---Factory_add_line2: BENGALURU
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---Factory_post: Anekal
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---Factory_taluk: Anekal
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---Factory_district: BENGALURU
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---Factory_pincode: 560040
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---Factory_phone_no: 7899285626
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---Factory_name: Sugar
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---Situation_f_district: BENGALURU
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---Situation_f_town_village: town
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---nearest_police_station: yes
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---nearest_rlystation: yes
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---buldng_approval: Proposed Building
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---Userid: Demo
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---division_cd: Deputy Director of Factories, Bangalore Division-3
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---circle_cd: BANGALORE REGION
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---App_mob_No1: 8656565655
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---Email_id: ushabiradar33@gmail.com
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---App_mob_No2: 8565652322
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---CompanyType: Proprietory
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---Total_wrkr_emplyd: 21
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---Amount: 100
+___________________________________
+02/Apr/2020 10:18:38 -- f587a55d-0fc5-426b-90aa-fa6630a55ffd---ErrorSystem.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network location cannot be reached. For information about network troubleshooting, see Windows Help
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at FBISWebApi.DBAccess.Operation.GetRecord(SqlCommand cmd) in C:\fbiswebapi\FBISWebApi\DBAccess\Operation.cs:line 31
+   at FBISWebApi.DBAccess.Operation.DML(String proc, Object[] col) in C:\fbiswebapi\FBISWebApi\DBAccess\Operation.cs:line 92
+   at FBISWebApi.Logics.PlanApproval.InsertForm1Details(Form1Approval formApp) in C:\fbiswebapi\FBISWebApi\Logics\PlanApproval.cs:line 22
+   at FBISWebApi.Controllers.HomeController.InsertPlanApproval(Form1Approval request) in C:\fbiswebapi\FBISWebApi\Controllers\HomeController.cs:line 90
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:1231,State:0,Class:20
+___________________________________
+02/Apr/2020 10:20:07 -- f4e8accc-1772-475b-a6b9-f0d89b290856---Application No: 
+___________________________________
+02/Apr/2020 10:20:07 -- f4e8accc-1772-475b-a6b9-f0d89b290856---ApplicantName: Shivashankar
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---Designation: Manager
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---App_add_line1: BENGALURU
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---App_add_line2: BENGALURU
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---App_post: Anekal
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---App_taluk: Anekal
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---App_district: BENGALURU
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---App_Pincode: 560040
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---Phone_no: 7899285626
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---Factory_add_line1: BENGALURU
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---Factory_add_line2: BENGALURU
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---Factory_post: Anekal
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---Factory_taluk: Anekal
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---Factory_district: BENGALURU
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---Factory_pincode: 560040
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---Factory_phone_no: 7899285626
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---Factory_name: Sugar
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---Situation_f_district: BENGALURU
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---Situation_f_town_village: town
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---nearest_police_station: yes
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---nearest_rlystation: yes
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---buldng_approval: Proposed Building
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---Userid: Demo
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---division_cd: Deputy Director of Factories, Bangalore Division-3
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---circle_cd: BANGALORE REGION
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---App_mob_No1: 8656565655
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---Email_id: ushabiradar33@gmail.com
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---App_mob_No2: 8565652322
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---CompanyType: Proprietory
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---Total_wrkr_emplyd: 21
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---Amount: 100
+___________________________________
+02/Apr/2020 10:20:08 -- f4e8accc-1772-475b-a6b9-f0d89b290856---ErrorSystem.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The specified network name is no longer available
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at FBISWebApi.DBAccess.Operation.GetRecord(SqlCommand cmd) in C:\fbiswebapi\FBISWebApi\DBAccess\Operation.cs:line 31
+   at FBISWebApi.DBAccess.Operation.DML(String proc, Object[] col) in C:\fbiswebapi\FBISWebApi\DBAccess\Operation.cs:line 92
+   at FBISWebApi.Logics.PlanApproval.InsertForm1Details(Form1Approval formApp) in C:\fbiswebapi\FBISWebApi\Logics\PlanApproval.cs:line 22
+   at FBISWebApi.Controllers.HomeController.InsertPlanApproval(Form1Approval request) in C:\fbiswebapi\FBISWebApi\Controllers\HomeController.cs:line 90
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:64,State:0,Class:20
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---Application No: 
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---ApplicantName: Shivashankar
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---Designation: Manager
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---App_add_line1: BENGALURU
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---App_add_line2: BENGALURU
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---App_post: Anekal
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---App_taluk: Anekal
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---App_district: BENGALURU
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---App_Pincode: 560040
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---Phone_no: 7899285626
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---Factory_add_line1: BENGALURU
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---Factory_add_line2: BENGALURU
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---Factory_post: Anekal
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---Factory_taluk: Anekal
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---Factory_district: BENGALURU
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---Factory_pincode: 560040
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---Factory_phone_no: 7899285626
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---Factory_name: Sugar
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---Situation_f_district: BENGALURU
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---Situation_f_town_village: town
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---nearest_police_station: yes
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---nearest_rlystation: yes
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---buldng_approval: Proposed Building
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---Userid: Demo
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---division_cd: Deputy Director of Factories, Bangalore Division-3
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---circle_cd: BANGALORE REGION
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---App_mob_No1: 8656565655
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---Email_id: ushabiradar33@gmail.com
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---App_mob_No2: 8565652322
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---CompanyType: Proprietory
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---Total_wrkr_emplyd: 21
+___________________________________
+02/Apr/2020 10:21:53 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---Amount: 100
+___________________________________
+02/Apr/2020 10:21:54 -- 401374ce-44f7-43c8-a2bc-e56e97cc8fde---ErrorSystem.IO.IOException: The device is not ready.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at System.IO.Directory.CreateDirectory(String path)
+   at FBISWebApi.Logics.FolderCreate.CreateDirectory(String id, List`1 f) in C:\fbiswebapi\FBISWebApi\Logics\FolderCreate.cs:line 21
+   at FBISWebApi.Logics.PlanApproval.InsertForm1Details(Form1Approval formApp) in C:\fbiswebapi\FBISWebApi\Logics\PlanApproval.cs:line 29
+   at FBISWebApi.Controllers.HomeController.InsertPlanApproval(Form1Approval request) in C:\fbiswebapi\FBISWebApi\Controllers\HomeController.cs:line 90
+___________________________________
+02/Apr/2020 10:27:10 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---Application No: 
+___________________________________
+02/Apr/2020 10:27:11 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---ApplicantName: Shivashankar
+___________________________________
+02/Apr/2020 10:27:13 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---Designation: Manager
+___________________________________
+02/Apr/2020 10:27:13 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---App_add_line1: BENGALURU
+___________________________________
+02/Apr/2020 10:27:13 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---App_add_line2: BENGALURU
+___________________________________
+02/Apr/2020 10:27:14 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---App_post: Anekal
+___________________________________
+02/Apr/2020 10:27:14 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---App_taluk: Anekal
+___________________________________
+02/Apr/2020 10:27:14 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---App_district: BENGALURU
+___________________________________
+02/Apr/2020 10:27:14 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---App_Pincode: 560040
+___________________________________
+02/Apr/2020 10:27:14 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---Phone_no: 7899285626
+___________________________________
+02/Apr/2020 10:27:14 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---Factory_add_line1: BENGALURU
+___________________________________
+02/Apr/2020 10:27:14 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---Factory_add_line2: BENGALURU
+___________________________________
+02/Apr/2020 10:27:14 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---Factory_post: Anekal
+___________________________________
+02/Apr/2020 10:27:14 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---Factory_taluk: Anekal
+___________________________________
+02/Apr/2020 10:27:14 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---Factory_district: BENGALURU
+___________________________________
+02/Apr/2020 10:27:14 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---Factory_pincode: 560040
+___________________________________
+02/Apr/2020 10:27:14 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---Factory_phone_no: 7899285626
+___________________________________
+02/Apr/2020 10:27:14 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---Factory_name: Sugar
+___________________________________
+02/Apr/2020 10:27:14 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---Situation_f_district: BENGALURU
+___________________________________
+02/Apr/2020 10:27:14 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---Situation_f_town_village: town
+___________________________________
+02/Apr/2020 10:27:14 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---nearest_police_station: yes
+___________________________________
+02/Apr/2020 10:27:15 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---nearest_rlystation: yes
+___________________________________
+02/Apr/2020 10:27:15 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---buldng_approval: Proposed Building
+___________________________________
+02/Apr/2020 10:27:15 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---Userid: Demo
+___________________________________
+02/Apr/2020 10:27:15 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---division_cd: Deputy Director of Factories, Bangalore Division-3
+___________________________________
+02/Apr/2020 10:27:15 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---circle_cd: BANGALORE REGION
+___________________________________
+02/Apr/2020 10:27:15 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---App_mob_No1: 8656565655
+___________________________________
+02/Apr/2020 10:27:15 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---Email_id: ushabiradar33@gmail.com
+___________________________________
+02/Apr/2020 10:27:15 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---App_mob_No2: 8565652322
+___________________________________
+02/Apr/2020 10:27:15 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---CompanyType: Proprietory
+___________________________________
+02/Apr/2020 10:27:15 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---Total_wrkr_emplyd: 21
+___________________________________
+02/Apr/2020 10:27:15 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---Amount: 100
+___________________________________
+02/Apr/2020 10:27:15 -- bf280721-eb2e-49fa-b9be-d0c3dcb950ab---ErrorSystem.IO.IOException: The device is not ready.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at System.IO.Directory.CreateDirectory(String path)
+   at FBISWebApi.Logics.FolderCreate.CreateDirectory(String id, List`1 f) in C:\fbiswebapi\FBISWebApi\Logics\FolderCreate.cs:line 21
+   at FBISWebApi.Logics.PlanApproval.InsertForm1Details(Form1Approval formApp) in C:\fbiswebapi\FBISWebApi\Logics\PlanApproval.cs:line 29
+   at FBISWebApi.Controllers.HomeController.InsertPlanApproval(Form1Approval request) in C:\fbiswebapi\FBISWebApi\Controllers\HomeController.cs:line 90
+___________________________________

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBISWebApi", "FBISWebApi\FBISWebApi.csproj", "{ABC502BD-0552-47AC-BE1A-1AA67B320255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBIISUnitTest", "FBIISUnitTest\FBIISUnitTest.csproj", "{3734A37E-FC11-40F3-830C-9FDF961E5531}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABC502BD-0552-47AC-BE1A-1AA67B320255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC502BD-0552-47AC-BE1A-1AA67B320255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC502BD-0552-47AC-BE1A-1AA67B320255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC502BD-0552-47AC-BE1A-1AA67B320255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3734A37E-FC11-40F3-830C-9FDF961E5531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3734A37E-FC11-40F3-830C-9FDF961E5531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3734A37E-FC11-40F3-830C-9FDF961E5531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3734A37E-FC11-40F3-830C-9FDF961E5531}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C3BF803-21DC-43A9-A214-4CF72FECEC67}
+	EndGlobalSection
+EndGlobal
